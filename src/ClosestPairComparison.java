@@ -29,7 +29,7 @@ class LogAP {
 public class ClosestPairComparison {
     private static LogAP logAP = new LogAP();
 
-    // Your original algorithm (optimized brute-force)
+    // My original algorithm (optimized brute-force)
     private static Point[] findCpp(Point[] points) {
         Point[] cpp = new Point[2];
         cpp[0] = points[0];
